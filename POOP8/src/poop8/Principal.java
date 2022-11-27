@@ -66,9 +66,9 @@ public class Principal {
         ////////////////////////////////////
         System.out.println(Math.PI);
         System.out.println(Meses.DOS);
-            // Se puede acceder a las variables de la interfaz sin crear instancias
-            System.out. println("El mes " + Meses.DOS + " corresponde a:");
-            System.out. println (Meses.NOMBRES_MESES[Meses.DOS] ) ;
+        // Se puede acceder a las variables de la interfaz sin crear instancias
+        System.out.println("El mes " + Meses.DOS + " corresponde a:");
+        System.out.println(Meses.NOMBRES_MESES[Meses.DOS]);
 
     }
 

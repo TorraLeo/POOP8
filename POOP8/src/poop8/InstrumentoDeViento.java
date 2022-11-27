@@ -6,7 +6,7 @@ package poop8;
 
 /**
  *
- * @author darwi
+ * @author EquipoH
  */
 public class InstrumentoDeViento implements InstrumentoMusical{
     @Override
