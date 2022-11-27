@@ -8,6 +8,27 @@ package poop8;
  *
  * @author darwi
  */
-public class InstrumentoDeViento {
-    
+public class InstrumentoDeViento implements InstrumentoMusical{
+    @Override
+    public void tocar() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public void afinar() {
+        // TODO Auto-generated method stub
+        
+    }
+
+    @Override
+    public String tipoInstrumento() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public String toString() {
+        return "InstrumentoDeViento []";
+    }
 }

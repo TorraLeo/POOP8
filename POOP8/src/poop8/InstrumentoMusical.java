@@ -9,5 +9,7 @@ package poop8;
  * @author darwi
  */
 public interface InstrumentoMusical {
-    
+    public abstract void tocar();
+    public abstract void afinar(); 
+    String tipoInstrumento();
 }

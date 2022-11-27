@@ -6,8 +6,15 @@ package poop8;
 
 /**
  *
- * @author darwi
+ * @author EquipoH
  */
-public class Poligono {
-    
+public abstract class Poligono {
+    public Poligono() {
+    }
+    public abstract float area(); 
+    public abstract int perimetro();
+    @Override
+    public String toString() {
+        return "Poligono []";
+    }
 }
